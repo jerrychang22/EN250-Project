@@ -1,0 +1,6 @@
+# to start the explicit water simulation on 1024x1024:
+LD_PRELOAD=./libpngwriter.so ./mod -c water_hires_explicit.ini
+
+# to start the implicit water simulation on 1024x1024:
+LD_PRELOAD=./libpngwriter.so ./mod -c water_hires_implicit.ini
+
